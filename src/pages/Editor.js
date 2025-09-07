@@ -6,7 +6,7 @@ import { javascript } from "@codemirror/lang-javascript";
 import { githubDark } from "@uiw/codemirror-theme-github";
 import toast from "react-hot-toast";
 
-const BACKEND_URL = "http://localhost:9000";
+const BACKEND_URL = "https://code-sync-1zxj.onrender.com";
 
 const Editor = () => {
   const { roomId } = useParams();

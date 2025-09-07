@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { io } from "socket.io-client";
 
 // connect to backend
-const socket = io("http://localhost:9000");
+const socket = io("https://code-sync-1zxj.onrender.com");
 
 function App() {
   return (
